@@ -1,6 +1,6 @@
 <h4>login</h4>
 <form action="">
     <input type="name">
-    <input class="pass" type="password">
+    <input class="pass" type="password" [pattern]="0-9,a-z. &*">
     <button click="dologin">submit</button>
 </form>
